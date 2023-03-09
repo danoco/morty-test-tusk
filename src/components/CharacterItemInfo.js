@@ -18,7 +18,8 @@ function CharacterItemInfo() {
   };
 
   useEffect(() => {
-    fetchCharacterById(id && 1);
+  // eslint-disable-next-line
+    fetchCharacterById(id);
   }, []);
 
   return (
