@@ -18,7 +18,7 @@ function CharacterItemInfo() {
   };
 
   useEffect(() => {
-    fetchCharacterById(id);
+    fetchCharacterById(id && 1);
   }, []);
 
   return (
