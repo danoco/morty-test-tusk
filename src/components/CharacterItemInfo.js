@@ -17,10 +17,11 @@ function CharacterItemInfo() {
     setCharacterById(response.data);
   };
 
+  /* eslint-disable */
   useEffect(() => {
-  // eslint-disable-next-line
     fetchCharacterById(id);
   }, []);
+/* eslint-enable */
 
   return (
     <div className='character-info'>
